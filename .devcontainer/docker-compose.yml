@@ -1,0 +1,10 @@
+services:
+  lean4:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      SHELL: "/bin/bash"
+    command: sleep infinity
+    volumes:
+      - ..:/workspaces/lean4

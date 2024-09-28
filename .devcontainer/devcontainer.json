@@ -1,0 +1,17 @@
+{
+    "name": "LEAN4 on Dev Container",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "lean4",
+    "workspaceFolder": "/workspaces/lean4",
+    "remoteUser": "root",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "zsh"
+            },
+            "extensions": [
+                "leanprover.lean4"
+            ]
+        }
+    }
+}
